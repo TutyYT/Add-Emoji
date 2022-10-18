@@ -1,0 +1,21 @@
+$nomention
+$addEmoji[New_Emoji;$message;yes]
+$title[Novo Emoji]
+$color[#54ABE2]
+$description[
+**<@$authorID> você adicionou o emoji $customEmoji[New_Emoji] no servidor!**
+
+O Emoji recebeu o nome __New_Emoji__ automaticamente quando foi adicionado, mas você pode alteralo a qualquer momento indo nas configurações do servidor!
+
+**Informações do Emoji:**
+Nome: `New_Emoji`
+ID: `$customEmoji[New_Emoji]`
+Data de entrada: 
+`$date`
+]
+$onlyPerms[manageemojis;Você não tem permissão para adicionar emojis no servidor!]
+$onlyPerms[manageemojis;<@$authorID>Você não possui a Permissão `Adicionar Emojis no Servidor` para adicionar um emoji nesses servidor!]
+
+$thumbnail[$message]
+
+$onlyIf[$message!=;Coloque o link de uma Imagem que vai virar um emoji desse servidor!] 
